@@ -1,0 +1,25 @@
+.upper-container {
+    display: flex;
+    padding: 1em;
+}
+
+.lower-container {
+    display: flex;
+    padding: 1em;
+}
+
+#min_10_count-chart {
+    flex: 1;
+}
+
+#min_100_count-chart {
+    flex: 1;
+}
+
+#min_1k_count-chart {
+    flex: 1;
+}
+
+#min_10k_count-chart {
+    flex: 1;
+}

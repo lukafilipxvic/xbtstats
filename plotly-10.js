@@ -1,5 +1,5 @@
 d3.csv(
-    "https://charts.coinmetrics.io/community-api/v4/timeseries/asset-metrics?assets=btc&metrics=AdrBalNtv10KCnt&page_size=10000&pretty=true&format=csv",
+    "https://charts.coinmetrics.io/community-api/v4/timeseries/asset-metrics?assets=btc&metrics=AdrBalNtv10Cnt&page_size=10000&pretty=true&format=csv",
     function (err, rows) {
         function unpack(rows, key) {
             return rows.map(function (row) {
@@ -8,24 +8,23 @@ d3.csv(
         }
 
 
-        var min_10k_count = {
+        var min_10_count = {
             type: "scatter",
             mode: "lines",
-            name: "Addresses with Balance > 10,000 BTC",
+            name: "Addresses with Balance > 10 BTC",
             x: unpack(rows, "time"),
-            y: unpack(rows, "AdrBalNtv10KCnt"),
+            y: unpack(rows, "AdrBalNtv10Cnt"),
             line: {
                 color: "#000028",
                 width: 1.2,
             }
         };
 
-        var data = [min_10k_count];
+        var data = [min_10_count];
 
         var layout = {
             autosize: true,
             height: 400,
-
             showlegend: true,
             legend: {
                 orientation: "h",
@@ -76,5 +75,5 @@ d3.csv(
             }
         };
 
-        Plotly.newPlot("min_10k_count-chart", data, layout, { responsive: true, displaylogo: false });
+        Plotly.newPlot("min_10_count-chart", data, layout, { responsive: true, displaylogo: false });
     });

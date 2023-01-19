@@ -23,7 +23,7 @@ d3.csv(
         var data = [min_1k_count];
 
         var layout = {
-            width: 800,
+            autosize: true,
             height: 400,
             showlegend: true,
             legend: {
