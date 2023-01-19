@@ -1,25 +1,34 @@
-.upper-container {
-    display: flex;
-    padding: 1em;
-}
+    /* start with period for class (multi-use), # for element (single use), @ for setting rules*/
 
-.lower-container {
-    display: flex;
-    padding: 1em;
-}
 
-#min_10_count-chart {
-    flex: 1;
-}
+    @media (min-width:768px) {
+        .dual-chart-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 2.5rem 1rem;
+        }
+    }
 
-#min_100_count-chart {
-    flex: 1;
-}
+    @media (min-width:1440px) {
+        .dual-chart-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 6.5rem 1rem;
+        }
+    }
 
-#min_1k_count-chart {
-    flex: 1;
-}
+    #min_10_count-chart {
+        flex: 1;
+    }
 
-#min_10k_count-chart {
-    flex: 1;
-}
+    #min_100_count-chart {
+        flex: 1;
+    }
+
+    #min_1k_count-chart {
+        flex: 1;
+    }
+
+    #min_10k_count-chart {
+        flex: 1;
+    }
