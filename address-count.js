@@ -1,3 +1,4 @@
+
 //>10 address count
 d3.csv(
     "https://charts.coinmetrics.io/community-api/v4/timeseries/asset-metrics?assets=btc&metrics=AdrBalNtv10Cnt&page_size=10000&pretty=true&format=csv",
@@ -8,7 +9,6 @@ d3.csv(
             });
         }
 
-
         var min_10_count = {
             type: "scatter",
             mode: "lines",
@@ -17,7 +17,7 @@ d3.csv(
             y: unpack(rows, "AdrBalNtv10Cnt"),
             line: {
                 color: "#000028",
-                width: 1.2,
+                width: 1.5,
             }
         };
 
@@ -98,7 +98,7 @@ d3.csv(
             y: unpack(rows, "AdrBalNtv100Cnt"),
             line: {
                 color: "#000028",
-                width: 1.2,
+                width: 1.5,
             }
         };
 
@@ -179,7 +179,7 @@ d3.csv(
             y: unpack(rows, "AdrBalNtv1KCnt"),
             line: {
                 color: "#000028",
-                width: 1.2,
+                width: 1.5,
             }
         };
 
@@ -260,7 +260,7 @@ d3.csv(
             y: unpack(rows, "AdrBalNtv10KCnt"),
             line: {
                 color: "#000028",
-                width: 1.2,
+                width: 1.5,
             }
         };
 

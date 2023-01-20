@@ -1,5 +1,12 @@
     /* start with period for class (multi-use), # for element (single use), @ for setting rules*/
 
+    .text {
+        color: brown;
+    }
+
+    #twitter {
+        text-align: right;
+    }
 
     @media (min-width:768px) {
         .dual-chart-container {
