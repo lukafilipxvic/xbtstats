@@ -16,7 +16,7 @@ d3.csv(
             x: unpack(rows, "time"),
             y: unpack(rows, "AdrBalNtv10Cnt"),
             line: {
-                color: "#000028",
+                color: "#121212",
                 width: 1.5,
             }
         };
@@ -34,7 +34,7 @@ d3.csv(
             },
 
             images: [{
-                source: "https://svgur.com/i/piR.svg",
+                source: "/xbtstats.png",
                 x: 0.5,
                 y: 0.5,
                 sizex: 0.4,
@@ -50,8 +50,8 @@ d3.csv(
                 t: 0,
             },
             font: {
-                color: '#000000',
-                size: 10,
+                color: '#121212',
+                size: 11,
             },
             xaxis: {
                 gridthickness: 2,
@@ -98,7 +98,7 @@ d3.csv(
             x: unpack(rows, "time"),
             y: unpack(rows, "AdrBalNtv100Cnt"),
             line: {
-                color: "#000028",
+                color: "#121212",
                 width: 1.5,
             }
         };
@@ -116,6 +116,7 @@ d3.csv(
             },
 
             images: [{
+                source: "/xbtstats.png",
                 x: 0.5,
                 y: 0.5,
                 sizex: 0.4,
@@ -131,8 +132,8 @@ d3.csv(
                 t: 0,
             },
             font: {
-                color: '#000000',
-                size: 10,
+                color: '#121212',
+                size: 11,
             },
             xaxis: {
                 gridthickness: 2,
@@ -179,7 +180,7 @@ d3.csv(
             x: unpack(rows, "time"),
             y: unpack(rows, "AdrBalNtv1KCnt"),
             line: {
-                color: "#000028",
+                color: "#121212",
                 width: 1.5,
             }
         };
@@ -197,6 +198,7 @@ d3.csv(
             },
 
             images: [{
+                source: "/xbtstats.png",
                 x: 0.5,
                 y: 0.5,
                 sizex: 0.4,
@@ -212,8 +214,8 @@ d3.csv(
                 t: 0,
             },
             font: {
-                color: '#000000',
-                size: 10,
+                color: '#121212',
+                size: 11,
             },
             xaxis: {
                 gridthickness: 2,
@@ -260,7 +262,7 @@ d3.csv(
             x: unpack(rows, "time"),
             y: unpack(rows, "AdrBalNtv10KCnt"),
             line: {
-                color: "#000028",
+                color: "#121212",
                 width: 1.5,
             }
         };
@@ -270,7 +272,6 @@ d3.csv(
         var layout = {
             autosize: true,
             height: 400,
-
             showlegend: true,
             legend: {
                 orientation: "h",
@@ -279,6 +280,7 @@ d3.csv(
             },
 
             images: [{
+                source: "/xbtstats.png",
                 x: 0.5,
                 y: 0.5,
                 sizex: 0.4,
@@ -294,10 +296,11 @@ d3.csv(
                 t: 0,
             },
             font: {
-                color: '#000000',
-                size: 10,
+                color: '#121212',
+                size: 11,
             },
             xaxis: {
+                zeroline: false,
                 gridthickness: 2,
                 showspikes: true,
                 spikemode: 'toaxis',

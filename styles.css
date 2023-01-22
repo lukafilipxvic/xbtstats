@@ -9,7 +9,7 @@
     }
 
     @media (min-width:768px) {
-        .dual-chart-container {
+        .chart-container {
             display: flex;
             justify-content: space-between;
             padding: 1rem 1rem 1rem;
@@ -17,10 +17,18 @@
     }
 
     @media (min-width:1440px) {
-        .dual-chart-container {
+        .chart-container {
             display: flex;
             justify-content: space-between;
             padding: 1rem 3rem 1rem;
+        }
+    }
+
+    @media (min-width:2560px) {
+        .chart-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 6rem 1rem;
         }
     }
 
