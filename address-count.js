@@ -34,6 +34,7 @@ d3.csv(
             },
 
             images: [{
+                source: "https://svgur.com/i/piR.svg",
                 x: 0.5,
                 y: 0.5,
                 sizex: 0.4,
