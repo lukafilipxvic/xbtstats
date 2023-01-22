@@ -12,7 +12,7 @@
         .dual-chart-container {
             display: flex;
             justify-content: space-between;
-            padding: 1rem 2.5rem 1rem;
+            padding: 1rem 1.5rem 1rem;
         }
     }
 
@@ -20,7 +20,7 @@
         .dual-chart-container {
             display: flex;
             justify-content: space-between;
-            padding: 1rem 6.5rem 1rem;
+            padding: 1rem 3rem 1rem;
         }
     }
 
