@@ -15,5 +15,5 @@ window
     .then(
         payload =>
         (document.getElementById("btcspot").innerHTML =
-            "XBTUSD Spot Price: $" + payload.data.market_data.price_usd.toLocaleString())
+            "Current spot price: $" + payload.data.market_data.price_usd.toLocaleString())
     );

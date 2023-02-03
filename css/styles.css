@@ -15,7 +15,7 @@
     }
 
     * {
-        letter-spacing: -25;
+        letter-spacing: -0.05em;
         font-weight: bold;
     }
 
@@ -26,7 +26,6 @@
     #btcspot {
         font-family: "Satoshi";
         font-weight: bold;
-        letter-spacing: -0.05em;
         text-align: right;
     }
 
@@ -61,22 +60,14 @@
 
     }
 
-    b {
-        margin: 1rem;
-        color: #121212;
-        text-decoration: none;
-
-    }
-
     a:hover {
         color: orange;
-        background-color: transparent;
         text-decoration: underline;
     }
 
     @media (min-width:768px) {
         #logo {
-            width: 20rem;
+            width: 300px;
             display: flex;
             padding: 8rem 8rem 4rem;
         }
@@ -84,7 +75,7 @@
 
     @media (min-width:1440px) {
         #logo {
-            width: 20rem;
+            width: 330px;
             display: flex;
         }
     }

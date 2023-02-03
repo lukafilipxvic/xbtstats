@@ -14,6 +14,10 @@
         src: url("/css/fonts/Satoshi-VariableItalic.ttf");
     }
 
+    .header {
+        justify-content: left;
+    }
+
     .text {
         font-family: "Satoshi";
         letter-spacing: -0.05em;
@@ -32,6 +36,10 @@
         font-family: "Satoshi";
         letter-spacing: -0.05em;
         font-weight: bold;
+    }
+
+    #logo-header {
+        width: 10%;
     }
 
     @media (min-width:768px) {
