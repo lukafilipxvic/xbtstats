@@ -16,21 +16,21 @@
 
     .text {
         font-family: "Satoshi";
-        letter-spacing: -25;
+        letter-spacing: -0.05em;
         font-weight: bold;
         color: brown;
     }
 
     #twitter {
         font-family: "Satoshi";
-        letter-spacing: -25;
+        letter-spacing: -0.05em;
         font-weight: bold;
         text-align: right;
     }
 
     #datapoints {
         font-family: "Satoshi";
-        letter-spacing: -25;
+        letter-spacing: -0.05em;
         font-weight: bold;
     }
 

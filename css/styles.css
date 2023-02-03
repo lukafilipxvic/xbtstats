@@ -26,14 +26,14 @@
     #btcspot {
         font-family: "Satoshi";
         font-weight: bold;
-        letter-spacing: -25;
+        letter-spacing: -0.05em;
         text-align: right;
     }
 
     #twitter {
         font-family: "Satoshi";
         font-weight: bold;
-        letter-spacing: -25;
+        letter-spacing: -0.05em;
         text-align: right;
     }
 
@@ -48,7 +48,7 @@
     #links {
         font-family: "Satoshi Italic";
         font-weight: bold;
-        letter-spacing: -25;
+        letter-spacing: -0.05em;
         text-align: center;
         justify-content: center;
 
