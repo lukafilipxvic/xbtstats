@@ -1,11 +1,37 @@
     /* start with period for class (multi-use), # for element (single use), @ for setting rules*/
+    html {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    @font-face {
+        font-family: "Satoshi";
+        src: url("/css/fonts/Satoshi-Variable.ttf");
+    }
+
+    @font-face {
+        font-family: "Satoshi Italic";
+        src: url("/css/fonts/Satoshi-VariableItalic.ttf");
+    }
 
     .text {
+        font-family: "Satoshi";
+        letter-spacing: -25;
+        font-weight: bold;
         color: brown;
     }
 
     #twitter {
+        font-family: "Satoshi";
+        letter-spacing: -25;
+        font-weight: bold;
         text-align: right;
+    }
+
+    #datapoints {
+        font-family: "Satoshi";
+        letter-spacing: -25;
+        font-weight: bold;
     }
 
     @media (min-width:768px) {

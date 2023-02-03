@@ -1,0 +1,97 @@
+    /* . for class (multi-use), # for element (single use), @ for setting rules*/
+    html {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    @font-face {
+        font-family: "Satoshi";
+        src: url("/css/fonts/Satoshi-Variable.ttf");
+    }
+
+    @font-face {
+        font-family: "Satoshi Italic";
+        src: url("/css/fonts/Satoshi-VariableItalic.ttf");
+    }
+
+    * {
+        letter-spacing: -25;
+        font-weight: bold;
+    }
+
+    .center-interface {
+        width: 50%;
+    }
+
+    #btcspot {
+        font-family: "Satoshi";
+        font-weight: bold;
+        letter-spacing: -25;
+        text-align: right;
+    }
+
+    #twitter {
+        font-family: "Satoshi";
+        font-weight: bold;
+        letter-spacing: -25;
+        text-align: right;
+    }
+
+    #logo {
+        width: 10rem;
+        padding: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #links {
+        font-family: "Satoshi Italic";
+        font-weight: bold;
+        letter-spacing: -25;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    a {
+        margin: 1rem;
+        color: #121212;
+        text-decoration: none;
+
+    }
+
+    b {
+        margin: 1rem;
+        color: #121212;
+        text-decoration: none;
+
+    }
+
+    a:hover {
+        color: orange;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    @media (min-width:768px) {
+        #logo {
+            width: 20rem;
+            display: flex;
+            padding: 8rem 8rem 4rem;
+        }
+    }
+
+    @media (min-width:1440px) {
+        #logo {
+            width: 20rem;
+            display: flex;
+        }
+    }
+
+    @media (min-width:2560px) {
+        #logo {
+            width: 20rem;
+            display: flex;
+        }
+    }
