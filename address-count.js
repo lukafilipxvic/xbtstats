@@ -143,6 +143,7 @@ d3.csv(
             yaxis: {
                 title: "Number of Balances",
                 type: "linear",
+                rangemode: 'nonnegative',
                 autorange: true,
                 showgrid: false,
                 showspikes: true,
@@ -155,10 +156,15 @@ d3.csv(
 
             yaxis2: {
                 title: 'BTC Price (USD)',
+                type: 'log',
+                rangemode: 'nonnegative',
                 autorange: true,
                 showgrid: false,
                 showspikes: true,
-                type: 'log',
+                spikemode: 'across',
+                spikethickness: 0.5,
+                spikecolor: '#333',
+                spikedash: 'line',
                 overlaying: 'y',
                 side: 'right'
             }
