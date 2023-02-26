@@ -14,15 +14,13 @@
         src: url("/css/fonts/Satoshi-VariableItalic.ttf");
     }
 
-    .header {
-        justify-content: left;
-    }
 
     .text {
         font-family: "Satoshi";
         letter-spacing: -0.05em;
         font-weight: bold;
         color: brown;
+
     }
 
     #twitter {
@@ -39,7 +37,7 @@
     }
 
     #logo-header {
-        width: 10%;
+        width: 15%;
     }
 
     @media (min-width:768px) {
@@ -66,6 +64,10 @@
         }
     }
 
+    #min_1_count-chart {
+        flex: 1;
+    }
+
     #min_10_count-chart {
         flex: 1;
     }
@@ -79,5 +81,9 @@
     }
 
     #min_10k_count-chart {
+        flex: 1;
+    }
+
+    #min_100k_count-chart {
         flex: 1;
     }
