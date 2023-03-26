@@ -1,5 +1,5 @@
 d3.csv(
-    "https://charts.coinmetrics.io/community-api/v4/timeseries/asset-metrics?assets=btc&metrics=PriceUSD,AdrBalNtv1Cnt,AdrBalNtv10Cnt,AdrBalNtv100Cnt,AdrBalNtv1KCnt,AdrBalNtv10KCnt,AdrBalNtv100KCnt&page_size=10000&pretty=true&format=csv",
+    "https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=btc&metrics=PriceUSD,AdrBalNtv1Cnt,AdrBalNtv10Cnt,AdrBalNtv100Cnt,AdrBalNtv1KCnt,AdrBalNtv10KCnt,AdrBalNtv100KCnt&page_size=10000&pretty=true&format=csv",
     function (err, rows) {
         function unpack(rows, key) {
             return rows.map(function (row) {
