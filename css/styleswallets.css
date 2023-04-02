@@ -1,4 +1,4 @@
-    /* start with period for class (multi-use), # for element (single use), @ for setting rules*/
+    /* start with . for class (multi-use), # for element (single use), @ for setting rules*/
     html {
         margin-left: 2%;
         margin-right: 2%;
@@ -28,6 +28,12 @@
         letter-spacing: -0.05em;
         font-weight: bold;
         text-align: right;
+    }
+
+    .coin-select {
+        font-family: "Satoshi";
+        letter-spacing: -0.05em;
+        font-weight: bold;
     }
 
     #datapoints {

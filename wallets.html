@@ -11,7 +11,7 @@
     <script src="messari.js"></script>
     <script src="address-count.js"></script>
 
-    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="css/styleswallets.css">
 </head>
 
 <body>
@@ -26,6 +26,16 @@
         <div id="btcspot"></div>
         <div id='1kbtc'></div>
     </div>
+
+    <div class="coin-select">
+        <label for="coin">Select cryptocurrency:</label>
+        <select id="coin" name="coin">
+            <option value="BTC">Bitcoin (BTC)</option>
+            <option value="ETH">Ethereum (ETH)</option>
+            <option value="DOGE">Dogecoin (DOGE)</option>
+        </select>
+    </div>
+
     <div class="chart-container">
         <div id="min_1_count-chart"></div>
         <div id="min_10_count-chart"></div>
